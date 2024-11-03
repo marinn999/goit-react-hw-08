@@ -1,7 +1,7 @@
-import s from "./ Contact.module.css";
+import s from "./Contact.module.css";
 import { useDispatch } from "react-redux";
 import { Icon } from "@iconify-icon/react";
-import { deleteContactThunk } from "../../redux/contactsOps";
+import { deleteContactThunk } from "../../redux/contacts/operations";
 
 function Contact({ contactData }) {
   const dispatch = useDispatch();
